@@ -9,15 +9,24 @@
 header {
     background-color: lightgrey;
     height: 50px;
-}
+    width: 100%;
+    position: fixed;
+ }
 
 nav {
     border: 1px dotted black;
-    width: 100%;
+    width: inherit;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav > a:hover {
+    color: lightsalmon;
+}
+main {
+    /* margin-top: 50px; */
 }
 
 nav > a {
@@ -131,3 +140,4 @@ object-fit: contain;
     border-radius: 10px;
     background-color:  lightblue;
 }
+
